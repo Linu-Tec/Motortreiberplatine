@@ -25,6 +25,16 @@ Hier findest du alle elektronischen Komponenten, die für den Aufbau der Platine
 
 ---
 
+## 🛠️ Platinen-Layout (PCB Views)
+
+Hier sind die 2D/3D-Renderings der gefertigten Motortreiberplatine. Die Leiterbahnen wurden für die Ströme der Schrittmotoren optimiert ausgelegt.
+
+| Ansicht Oben (Top Component Side) | Ansicht Unten (Bottom Solder Side) |
+| :---: | :---: |
+| ![Platine Oben](https://github.com/Linu-Tec/Motortreiberplatine/blob/main/production/PCB%20Oben.jpg) | ![Platine Unten](https://github.com/Linu-Tec/Motortreiberplatine/blob/main/production/PCB%20Unten.jpg) |
+
+---
+
 ## ⚙️ Microstepping-Konfiguration
 
 Der Schrittmotortreiber DRV8825 unterstützt verschiedene Schrittauflösungen. Über die Jumper-Leisten `J2, J3, J6, J7` lässt sich das Verhalten anpassen:
@@ -44,10 +54,12 @@ Der Schrittmotortreiber DRV8825 unterstützt verschiedene Schrittauflösungen. �
 
 * `/production` - Enthält die fertigen Produktionsdaten (Gerber-Dateien, NC-Drill).
 * `/code` - Quellcode-Beispiele für die Inbetriebnahme.
+* `/Platine` - KiCad-Projekt- oder Bilddaten der Leiterplatte.
 
 ---
 
 ## 📝 Lizenz
 
 Dieses Projekt steht unter der **MIT-Lizenz**. Genauere Informationen findest du in der Datei `LICENSE`.
+
 
