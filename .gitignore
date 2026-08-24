@@ -1,0 +1,19 @@
+# === Arduino IDE / PlatformIO ===
+build/
+bin/
+*.elf
+*.hex
+*.o
+
+# === KiCad (Schaltplan & Layout) ===
+*.bak
+*.kicad_pcb-bak
+*.sch-bak
+*~
+_autosave-*
+*.kicad_prl
+*.lck
+fp-info-cache
+*.net
+*.i
+*.s
