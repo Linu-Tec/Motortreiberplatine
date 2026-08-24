@@ -58,6 +58,27 @@ Der Schrittmotortreiber DRV8825 unterstützt verschiedene Schrittauflösungen. �
 
 ---
 
+
+## ⚡ Kalibrierung: Motorstrom einstellen ($V_{ref}$)
+
+Bevor du die Motoren dauerhaft betreibst, musst du den maximalen Strom am winzigen Drehpotentiometer des DRV8825-Treibers einstellen. Ein zu hoher Strom überhitzt Treiber und Motoren; ein zu niedriger Strom sorgt für Schrittverluste.
+
+### 📐 Formel für den DRV8825:
+$$\text{Maximaler Motorstrom } (I_{\text{max}}) = V_{ref} \times 2$$
+$$\text{Gegenrechnung: } V_{ref} = \frac{I_{\text{max}}}{2}$$
+
+*Beispiel:* Wenn dein Schrittmotor für **1,0 A** pro Phase ausgelegt ist, solltest du den Treiber auf eine Referenzspannung von **0,5 V** einstellen.
+
+### 🛠️ Schritt-für-Schritt Anleitung:
+1. Schließe die Logikspannung (USB am Arduino) an, aber lass die Hauptstromversorgung ($12\text{V}/24\text{V}$) noch **aus**.
+2. Nimm ein Multimeter und stelle es auf **Gleichspannung (V DC)** ein.
+3. Verbinde die **schwarze Messspitze (COM)** mit einem GND-Pin der Platine.
+4. Setze die **rote Messspitze vorsichtig** auf das kleine Metall-Drehpotentiometer des DRV8825-Treiberbausteins.
+5. Lies den Wert auf dem Multimeter ab ($V_{ref}$).
+6. Drehe mit einem passenden Schraubendreher (am besten aus Keramik oder isoliert) **ganz vorsichtig** am Potentiometer, bis dein Zielwert (z.B. $0{,}5\text{ V}$) erreicht ist.
+
+---
+
 ## 📝 Lizenz
 
 Dieses Projekt steht unter der **MIT-Lizenz**. Genauere Informationen findest du in der Datei `LICENSE`.
