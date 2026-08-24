@@ -1,0 +1,12 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+A1,Pololu_Breakout-16_15.2x20.3mm,1,Pololu_Breakout_A4988,
+A3,Pololu_Breakout-16_15.2x20.3mm,1,Pololu_Breakout_DRV8825,
+"C1, C2",CP_Radial_D8.0mm_P5.00mm,2,C_Polarized,
+"J1, J5",PinHeader_1x04_P2.54mm_Vertical,2,Conn_01x04_Pin,
+"J10, J12, J13, J14, J16",PinHeader_1x02_P2.54mm_Vertical,5,Conn_01x02_Pin,
+J11,PinHeader_1x02_P2.54mm_Vertical,1,Lüfter,
+"J15, J8",PinHeader_1x04_P2.54mm_Vertical,2,Power Out,
+"J2, J3, J6, J7",PinHeader_1x03_P2.54mm_Vertical,4,Conn_01x03_Pin,
+J4,PinHeader_1x03_P2.54mm_Vertical,1,EN DIR STEP,
+J9,PinSocket_1x04_P2.54mm_Vertical,1,Power,
+U1,TO-220-3_Vertical,1,L7805,
